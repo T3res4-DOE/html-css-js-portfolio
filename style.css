@@ -7,6 +7,12 @@
     padding: 0;
 }
 
+main {
+    display: flex;
+    flex-direction: column;
+    /* gap: 4rem; */
+}
+
 body {
     font-family: "Poppins", serif;
 }
@@ -150,7 +156,7 @@ a:hover {
 
 section {
     padding-top: 4vh;
-    height: 96vh;
+    /* height: 96vh; */
     margin: 0 10rem;
     box-sizing: border-box;
     min-height: fit-content;
