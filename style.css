@@ -308,6 +308,7 @@ section {
 }
 
 .details-container {
+    min-width: 300px;
     padding: 1.5rem;
     flex: 1;
     background: white;
@@ -327,7 +328,7 @@ section {
     height: min(30vw, 400px);
     width: min(30vw, 400px);
     aspect-ratio: 1 / 1;
-    margin: auto 0;
+    margin: 35px;
 }
 
 .section__pic-container-2 img {
